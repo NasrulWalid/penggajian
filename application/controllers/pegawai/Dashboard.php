@@ -9,7 +9,7 @@ class Dashboard extends CI_Controller{
             $this->session->flashdata('pesan','<div class ="alert alert-danger alert-dismissible fade show" role="alert"><strong>
             Anda Belum Login </strong> <button type="button" class="close" data-dismiss="alert" aria-label="close">
             <span aria-hidden="true">&times;</span></button> </div>');
-            redirect('welcome');
+            redirect('login');
         }
     }
     public function index()

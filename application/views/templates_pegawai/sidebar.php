@@ -27,6 +27,12 @@
                     <span>Data Gaji</span></a>
             </li>
 
+            <li class="nav-item ">
+                <a class="nav-link" href="<?php echo base_url('pegawai/dataAbsensi')?>">
+                    <i class="fas fa-fw fa-money-check-alt"></i>
+                    <span>Data Absensi</span></a>
+            </li>
+
             <!-- Nav Item - Pages Collapse Menu -->
             
 
@@ -39,7 +45,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('login/logout')?>">
+                <a class="nav-link" href="<?php echo base_url('landing_page')?>">
                     <i class="fas fa-fw fa-sign-out-alt"></i>
                     <span>Logout</span></a>
             </li>

@@ -9,7 +9,7 @@ class dataPegawai extends CI_Controller{
             $this->session->set_flashdata('pesan','<div class ="alert alert-danger alert-dismissible fade show" role="alert"><strong>
 				Anda Belum Login </strong> <button type="button" class="close" data-dismiss="alert" aria-label="close">
 				<span aria-hidden="true">&times;</span></button> </div>');
-                redirect('Welcome');
+                redirect('landing_page');
         }
     }
     public function index()
@@ -93,7 +93,7 @@ class dataPegawai extends CI_Controller{
         $this->_rules();
 
         if($this->form_validation->run() == FALSE) {
-            $this->update_data();
+            $this->tambah_data();
         }else{
             $id            = $this->input->post('id_pegawai');
             $nik            = $this->input->post('nik');

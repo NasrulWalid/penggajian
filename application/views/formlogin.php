@@ -45,16 +45,16 @@
                                         <div class="form-group">
                                             <input type="type" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="Username" name="username">
+                                                placeholder="Nama Pengguna" name="username">
                                                 <?php echo form_error('username','<div class="text-small text-danger"></div>')?>
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="Password" name="password">
+                                                id="exampleInputPassword" placeholder="Kata Sandi" name="password">
                                                 <?php echo form_error('password','<div class="text-small text-danger"></div>')?>
                                         </div>
                                         <hr>
-                                        <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">Masuk</button>
                                     </form>
                                 </div>
                             </div>

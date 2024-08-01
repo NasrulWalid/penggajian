@@ -13,22 +13,22 @@
             <form method="POST" action="<?php echo base_url('admin/dataJabatan/tambah_data_aksi')?>">
                 <div class="form'group">
                     <label> Nama Jabatan</label>
-                    <input type="text" name="nama_jabatan" class="form-control">
+                    <input type="text" name="nama_jabatan" class="form-control" >
                     <?php echo form_error('nama_jabatan','<div class="text-small text-danger"></div>')?>
                 </div>
                 <div class="form'group">
                     <label> Gaji Pokok</label>
-                    <input type="text" name="gaji_pokok" class="form-control">
+                    <input type="number" name="gaji_pokok" class="form-control">
                     <?php echo form_error('gaji_pokok','<div class="text-small text-danger"></div>')?>
                 </div>
                 <div class="form'group">
                     <label>Tunjangan Transportasi</label>
-                    <input type="text" name="tunjangan_transport" class="form-control">
+                    <input type="number" name="tunjangan_transport" class="form-control">
                     <?php echo form_error('tunjangan_transport','<div class="text-small text-danger"></div>')?>
                 </div>
                 <div class="form'group">
                     <label> Uang Makan</label>
-                    <input type="text" name="uang_makan" class="form-control">
+                    <input type="number" name="uang_makan" class="form-control">
                     <?php echo form_error('uang_makan','<div class="text-small text-danger"></div>')?>
                 </div>
 

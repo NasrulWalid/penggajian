@@ -25,7 +25,7 @@ class GantiPassword extends CI_Controller{
             $this->session->set_flashdata('pesan','<div class ="alert alert-success alert-dismissible fade show" role="alert"><strong>
             Password berhasil diganti! </strong> <button type="button" class="close" data-dismiss="alert" aria-label="close">
             <span aria-hidden="true">&times;</span></button> </div>');
-            redirect('Welcome');
+            redirect('login');
         } else {
             $data['title'] = "Ganti Password";
             $this->load->view('templates_admin/header',$data);

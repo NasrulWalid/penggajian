@@ -19,7 +19,7 @@
 
 				<div class="form-group">
 					<label>Jumlah Potongan</label>
-					<input type="text" name="jml_potongan" class="form-control" value="<?php echo $p->jml_potongan ?>">
+					<input type="number" name="jml_potongan" class="form-control" value="<?php echo $p->jml_potongan ?>">
 					<?php echo form_error('jml_potongan') ?>
 				</div>
 

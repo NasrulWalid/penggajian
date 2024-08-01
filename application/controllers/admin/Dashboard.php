@@ -9,15 +9,14 @@ class Dashboard extends CI_Controller{
             $this->session->set_flashdata('pesan','<div class ="alert alert-danger alert-dismissible fade show" role="alert"><strong>
 				Anda Belum Login </strong> <button type="button" class="close" data-dismiss="alert" aria-label="close">
 				<span aria-hidden="true">&times;</span></button> </div>');
-                redirect('Welcome');
+                redirect('login');
         }
     }
     public function index()
     {
         $data['title'] = "Dashboard";
         $pegawai = $this->db->query("SELECT * FROM data_pegawai");
-        $admin = $this->db->query("SELECT * FROM data_pegawai WHERE 
-        jabatan = 'Admin'");
+        $admin = $this->db->query("SELECT * FROM data_pegawai WHERE jabatan = 'Admin'");
         $jabatan = $this->db->query("SELECT * FROM data_jabatan");
         $kehadiran = $this->db->query("SELECT * FROM data_kehadiran");
         $data['pegawai']=$pegawai->num_rows();

@@ -34,16 +34,16 @@
                   <i class="fa fa-times" aria-hidden="true"></i>
                   <ul class="nav">
                      <li class="nav-item">
-                        <a class="nav-link" href="#Home">Home</a>
+                        <a class="nav-link" href="#Home">Beranda</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#Tentang">Information Website</a>
+                        <a class="nav-link" href="#Tentang">Informasi Website</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#AboutMe">About Us</a>
+                        <a class="nav-link" href="#AboutMe">Tentang Kami</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url('login');?>">Login</a>
+                        <a class="nav-link" href="<?php echo base_url('login');?>">Masuk</a>
                      </li>
                   </ul>
                </div>
@@ -77,7 +77,7 @@
       <div class="Service" id="Tentang">
          <div class="Section">
             <div class="text-center">
-               <h2>Information Website</h2>
+               <h2>Informasi Website</h2>
                <div class="subHeading">
                   Berikut informasi singkat tentang website penggajian karyawan
                </div>
@@ -111,7 +111,7 @@
                         <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/tentang.svg"></div>
                         <div class="body">
                            <div class="title">Tentang Website</div>
-                           <div id="flip1">Read More</div>
+                           <div id="flip1">Baca Selengkapnya</div>
                            <div id="panel1">Website penggajian kami adalah solusi berbasis web yang dirancang untuk membantu bisnis dari semua ukuran mengelola penggajian karyawan dengan mudah dan efisien.
 Dengan website kami, Anda dapat mengotomatiskan tugas penggajian yang memakan waktu, seperti perhitungan gaji, tunjangan, dan pemotongan gaji.
 Anda juga dapat melacak waktu kehadiran ,  membuat laporan dan analisis penggajian, dan banyak lagi.</div>
@@ -145,7 +145,7 @@ Anda juga dapat melacak waktu kehadiran ,  membuat laporan dan analisis penggaji
                         <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/administrator.svg"></div>
                         <div class="body">
                            <div class="title">Halaman Admin</div>
-                           <div id="flip2">Read More</div>
+                           <div id="flip2">Baca Selengkapnya</div>
                            <div id="panel2">Administrator dapat menggunakan website untuk mengelola data pada website, halaman administrator terdapat dashboard / informasi singkat mengenai data data, terdapat data karyawan untuk pengelolaan karyawan, terdapat data jabatan untuk pengelolaan jabatan, terdapat data transaksi yang memiliki sub menu data absensi, setting potongan gaji, data gaji, terdapat data laporan yang memiliki sub menu laporan absensi, laporan gaji, cetak slip gaji.</div>
                         </div>
                      </div>
@@ -177,7 +177,7 @@ Anda juga dapat melacak waktu kehadiran ,  membuat laporan dan analisis penggaji
                         <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/karyawan.svg"></div>
                         <div class="body">
                            <div class="title">Halaman Karyawan</div>
-                           <div id="flip3">Read More</div>
+                           <div id="flip3">Baca Selengkapnya</div>
                            <div id="panel3">Halaman karyawan terdapat informasi tentang karyawan dan cetak slip gaji.</div>
                         </div>
                      </div>
@@ -209,7 +209,7 @@ Anda juga dapat melacak waktu kehadiran ,  membuat laporan dan analisis penggaji
                         <div class="CardImage"><img src="<?php echo base_url(); ?>assets/img/others-fitur.svg"></div>
                         <div class="body">
                            <div class="title">Fitur Lainnya</div>
-                           <div id="flip4">Read More</div>
+                           <div id="flip4">Baca Selengkapnya</div>
                            <div id="panel4">Cetak slip gaji, lupa password, login karyawan</div>
                         </div>
                      </div>
@@ -222,7 +222,7 @@ Anda juga dapat melacak waktu kehadiran ,  membuat laporan dan analisis penggaji
       <div class="Team" id="AboutMe">
          <div class="Section">
             <div class="text-center">
-               <h2>About Us</h2>
+               <h2>Tentang Kami</h2>
                <div class="subHeading">
                   Berikut informasi singkat tentang pembuat website
                </div>

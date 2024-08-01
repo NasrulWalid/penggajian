@@ -21,7 +21,7 @@ class Login extends CI_Controller {
 				$this->session->set_flashdata('pesan','<div class ="alert alert-danger alert-dismissible fade show" role="alert"><strong>
 				Username atau Password Salah </strong> <button type="button" class="close" data-dismiss="alert" aria-label="close">
 				<span aria-hidden="true">&times;</span></button> </div>');
-				redirect('landing_page');
+				redirect('login');
 			} else {
 				$this->session->set_userdata('hak_akses',$cek->hak_akses);
 				$this->session->set_userdata('nama_pegawai',$cek->nama_pegawai);
